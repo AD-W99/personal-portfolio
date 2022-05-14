@@ -137,8 +137,39 @@ nav li:hover,
 /* Second section styles */
 
 .projects {
-    height: 600px;
+    height: 100%;
     width: 100%;
-    margin-top: 267px;
+    margin-top: 100vh;
     background-color: #1A1F16;
+}
+
+.about {
+    text-align: center;
+    padding: 2rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #345830;
+    padding: 2rem;
+}
+
+.about-content img {
+    height: 350px;
+    width: 306px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about-content div {
+    text-align: center;
+}
+
+.about-content p {
+    max-width: 400px;
+    font-weight: 500;
 }
