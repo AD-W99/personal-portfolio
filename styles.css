@@ -103,7 +103,7 @@ nav li:hover,
     font-size: 4em;
     font-weight: 600;
     line-height: 1em;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .text p {
