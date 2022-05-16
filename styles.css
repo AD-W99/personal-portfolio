@@ -148,7 +148,7 @@ nav li:hover,
     border-radius: 10px;
     transition: 0.2s;
     margin: 0 1rem;
-    width: 260px;
+    min-width: 260px;
 }
 
 .text a:visited,
@@ -179,6 +179,7 @@ nav li:hover,
 @media only screen and (max-width: 580px) {
     .text a {
         margin: 0.5rem 0;
+        width: 260px;
     }
 
     .text h2 {
@@ -360,4 +361,10 @@ label {
         width: 50%;
         margin-left: 25%;
     }
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #1A1F16;
 }
