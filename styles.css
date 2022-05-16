@@ -37,6 +37,24 @@ a {
     border-radius: 1rem;
 }
 
+@media only screen and (max-width: 520px) {
+    .about p {
+        font-size: 2rem;
+    }
+
+    .skills p {
+        font-size: 2rem;
+    }
+
+    .projects p {
+        font-size: 2rem;
+    }
+
+    .contact p {
+        font-size: 2rem;
+    }
+}
+
 /* First section styles */
 
 .showcase {
@@ -130,6 +148,7 @@ nav li:hover,
     border-radius: 10px;
     transition: 0.2s;
     margin: 0 1rem;
+    width: 260px;
 }
 
 .text a:visited,
@@ -154,6 +173,24 @@ nav li:hover,
 
     .text p {
         font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .text a {
+        margin: 0.5rem 0;
+    }
+
+    .text h2 {
+        font-size: 2em;
+    }
+
+    .text h3 {
+        font-size: 2em;
+    }
+
+    nav li {
+        margin: 1rem 0.5rem;
     }
 }
 
@@ -193,6 +230,20 @@ nav li:hover,
     font-weight: 500;
 }
 
+@media only screen and (max-width: 700px) {
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .about-content img {
+        height: 175px;
+        width: 153px;
+    }
+}
+
 /* Third section styles */
 
 .skills-content {
@@ -212,6 +263,12 @@ nav li:hover,
 
 .skills-container h2 {
     text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .skills-container {
+        flex-direction: column;
+    }
 }
 
 /* Fourth section styles */
@@ -247,6 +304,13 @@ nav li:hover,
     border-radius: 1rem;
     padding: 1.5rem 0.8rem;
 
+}
+
+@media only screen and (max-width: 800px) {
+    .projects-column1,
+    .projects-column2 {
+        margin: 0 1rem;
+    }
 }
 
 /* Fifth section styles */
@@ -289,4 +353,11 @@ input[type='submit']:hover {
 
 label {
     margin-left: 1rem;
+}
+
+@media only screen and (max-width: 550px) {
+    input[type='submit'] {
+        width: 50%;
+        margin-left: 25%;
+    }
 }
