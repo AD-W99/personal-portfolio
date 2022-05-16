@@ -248,3 +248,45 @@ nav li:hover,
     padding: 1.5rem 0.8rem;
 
 }
+
+/* Fifth section styles */
+
+.contact-content {
+    background-color: #345830;
+    padding: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+input,
+textarea {
+    background-color: #4A7856;
+    border-bottom: 4px solid #1A1F16;
+    color: #C5D86D;
+    padding: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+input[type='submit'] {
+    text-align: center;
+    width: 25%;
+    margin-left: 37.5%;
+}
+
+input[type='submit']:hover {
+    background-color: #1A1F16;
+    cursor: pointer;
+}
+
+
+label {
+    margin-left: 1rem;
+}
