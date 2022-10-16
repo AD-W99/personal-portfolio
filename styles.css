@@ -316,6 +316,10 @@ nav li:hover,
 
 }
 
+.project-link {
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 800px) {
     .projects-column1,
     .projects-column2 {
